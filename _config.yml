@@ -13,7 +13,7 @@ animated_fins:    true
 # Specify the fin color in RGB value
 fin_color:        33,55,55
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              galaxy-wolf.github.io
 
 
 # Owner/author information
