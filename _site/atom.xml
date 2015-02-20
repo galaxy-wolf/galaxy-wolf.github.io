@@ -1,20 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+  
+
   <title>赵琦的blog</title>
   <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.4.0</generator>
-    <icon>/apple-touch-icon-precomposed.png</icon>
+    <icon>http://galaxy-wolf.github.io/apple-touch-icon-precomposed.png</icon>
   <subtitle>图形学那些事</subtitle>
-  <link href="/atom.xml" rel="self"/>
-  <link href="/" rel="alternate" type="text/html"/>
-  <updated>2015-02-20T00:07:46+08:00</updated>
-  <id>/</id>
+  <link href="http://galaxy-wolf.github.io/atom.xml" rel="self"/>
+  <link href="http://galaxy-wolf.github.io/" rel="alternate" type="text/html"/>
+  <updated>2015-02-20T23:03:29+08:00</updated>
+  <id>http://galaxy-wolf.github.io/</id>
   <author>
     <name></name>
-    <uri>/</uri>
+    <uri>http://galaxy-wolf.github.io/</uri>
     
   </author>
 
+  
+  <entry>
+    <title>First Commit</title>
+    <link href="http://galaxy-wolf.github.io/first-commit/"/>
+    <updated>2015-02-20T00:00:00+08:00</updated>
+    <id>http://galaxy-wolf.github.io/first-commit</id>
+    <author>
+      <name></name>
+      <uri>http://galaxy-wolf.github.io/</uri>
+      
+    </author>
+    <content type="html">
+      
+      
+
+    </content>
+  </entry>
   
   
 </feed>
