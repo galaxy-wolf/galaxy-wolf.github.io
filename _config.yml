@@ -2,7 +2,7 @@
 
 title:  赵琦的blog
 description: 图形学那些事
-logo: # 120x120 px default image used for Twitter summary card
+logo: site.jpeg # 120x120 px default image used for Twitter summary card
 teaser: teaser.gif # 400x250 px default teaser image used in image archive grid
 locale:
 url:
