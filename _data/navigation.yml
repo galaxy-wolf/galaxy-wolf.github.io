@@ -1,11 +1,13 @@
 # Site navigation links
 
+- title: 建站
+  url: /setup
+  excerpt: "on how this site is setup"
+  image: bio-photo.jpg
+
 - title: 技术
   url: /tech
   excerpt: "hello"
   image: bio-photo.jpg
 
-- title: 建站
-  url: /setup
-  excerpt: "on how this site is setup"
-  image: bio-photo.jpg
+
