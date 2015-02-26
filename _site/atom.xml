@@ -3,34 +3,40 @@
 
   
 
-  <title>赵琦的blog</title>
+  <title>西红柿炒番茄</title>
   <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.4.0</generator>
-    <icon>http://galaxy-wolf.github.io/apple-touch-icon-precomposed.png</icon>
+    <icon>http://127.0.0.1:4000/apple-touch-icon-precomposed.png</icon>
   <subtitle>图形学那些事</subtitle>
-  <link href="http://galaxy-wolf.github.io/atom.xml" rel="self"/>
-  <link href="http://galaxy-wolf.github.io/" rel="alternate" type="text/html"/>
-  <updated>2015-02-20T23:03:29+08:00</updated>
-  <id>http://galaxy-wolf.github.io/</id>
+  <link href="http://127.0.0.1:4000/atom.xml" rel="self"/>
+  <link href="http://127.0.0.1:4000/" rel="alternate" type="text/html"/>
+  <updated>2015-02-26T20:40:38+08:00</updated>
+  <id>http://127.0.0.1:4000/</id>
   <author>
     <name></name>
-    <uri>http://galaxy-wolf.github.io/</uri>
+    <uri>http://127.0.0.1:4000/</uri>
     
   </author>
 
   
   <entry>
-    <title>First Commit</title>
-    <link href="http://galaxy-wolf.github.io/first-commit/"/>
-    <updated>2015-02-20T00:00:00+08:00</updated>
-    <id>http://galaxy-wolf.github.io/first-commit</id>
+    <title>建站</title>
+    <link href="http://127.0.0.1:4000/setup/first-commit/"/>
+    <updated>2015-02-22T00:00:00+08:00</updated>
+    <id>http://127.0.0.1:4000/setup/first-commit</id>
     <author>
       <name></name>
-      <uri>http://galaxy-wolf.github.io/</uri>
+      <uri>http://127.0.0.1:4000/</uri>
       
     </author>
     <content type="html">
       
-      
+      &lt;p&gt;setup&lt;/p&gt;
+
+&lt;h1 id=&quot;opensuse-jekyll&quot;&gt;opensuse 安装jekyll&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;shell
+zypper in nodejs
+&lt;/code&gt;&lt;/p&gt;
 
     </content>
   </entry>

@@ -2,12 +2,16 @@
 
 - title: 建站
   url: /setup
-  excerpt: "on how this site is setup"
-  image: bio-photo.jpg
+  excerpt: 本站建立过程
+  image: build.jpg
 
 - title: 技术
   url: /tech
-  excerpt: "hello"
-  image: bio-photo.jpg
+  excerpt: 编程相关
+  image: tech.jpg
 
+- title: 生活
+  url: /life
+  excerpt: 生活感悟
+  image: tech.jpg
 
