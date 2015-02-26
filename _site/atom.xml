@@ -5,38 +5,65 @@
 
   <title>西红柿炒番茄</title>
   <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.4.0</generator>
-    <icon>http://galaxy-wolf.github.io/apple-touch-icon-precomposed.png</icon>
+    <icon>http://127.0.0.1:4000/apple-touch-icon-precomposed.png</icon>
   <subtitle>图形学那些事</subtitle>
-  <link href="http://galaxy-wolf.github.io/atom.xml" rel="self"/>
-  <link href="http://galaxy-wolf.github.io/" rel="alternate" type="text/html"/>
-  <updated>2015-02-26T21:52:58+08:00</updated>
-  <id>http://galaxy-wolf.github.io/</id>
+  <link href="http://127.0.0.1:4000/atom.xml" rel="self"/>
+  <link href="http://127.0.0.1:4000/" rel="alternate" type="text/html"/>
+  <updated>2015-02-27T00:40:08+08:00</updated>
+  <id>http://127.0.0.1:4000/</id>
   <author>
-    <name></name>
-    <uri>http://galaxy-wolf.github.io/</uri>
-    
+    <name>赵琦</name>
+    <uri>http://127.0.0.1:4000/</uri>
+    <email>964498718@qq.com</email>
   </author>
 
   
   <entry>
-    <title>建站</title>
-    <link href="http://galaxy-wolf.github.io/setup/first-commit/"/>
+    <title>个人主页搭建</title>
+    <link href="http://127.0.0.1:4000/setup/first-commit/"/>
     <updated>2015-02-22T00:00:00+08:00</updated>
-    <id>http://galaxy-wolf.github.io/setup/first-commit</id>
+    <id>http://127.0.0.1:4000/setup/first-commit</id>
     <author>
-      <name></name>
-      <uri>http://galaxy-wolf.github.io/</uri>
-      
+      <name>赵琦</name>
+      <uri>http://127.0.0.1:4000/</uri>
+      <email>964498718@qq.com</email>
     </author>
     <content type="html">
       
-      &lt;p&gt;setup&lt;/p&gt;
+      &lt;h1 id=&quot;section&quot;&gt;简介&lt;/h1&gt;
 
-&lt;h1 id=&quot;opensuse-jekyll&quot;&gt;opensuse 安装jekyll&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://pages.github.com&quot;&gt;github page&lt;/a&gt; 是github为个人主页和项目主页提供的免费托管服务。由于其高度的可定制性，是程序员
+博客的不二选择。缺点是只能做静态网页。&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;shell
-zypper in nodejs
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;本主页使用了名为&lt;a href=&quot;http://mmistakes.github.io/skinny-bones-jekyll/&quot;&gt;skinny bones&lt;/a&gt; 的jekyll模板，在模板得主页上有其详细的使用说明, &lt;a href=&quot;http://jekyllrb.com&quot;&gt;jekyll&lt;/a&gt; 是一个博客网站生成器，能够方便博客得编写。&lt;/p&gt;
+
+&lt;p&gt;搭建过程也比较简单，首先按照&lt;a href=&quot;https://pages.github.com/&quot;&gt;github page&lt;/a&gt;的说明，在github上建立主页项目,然后是搭建jekyll在本地运行环境，方便本地预览。最后是安装模板, 下面着重讲一下jekyll的安装过程。&lt;/p&gt;
+
+&lt;h2 id=&quot;step-1-&quot;&gt;Step 1 创建主页项目&lt;/h2&gt;
+
+&lt;p&gt;具体内容参考&lt;a href=&quot;https://pages.github.com/&quot;&gt;github page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-2--jekyll&quot;&gt;Step 2 安装 jekyll&lt;/h2&gt;
+
+&lt;p&gt;jekyll 是基于ruby的一个软件，因此依赖得软件有：ruby ruby-devel 以及gun的c编译环境等。&lt;/p&gt;
+
+&lt;h4 id=&quot;opensusehttpwwwsnip2codecomsnippet126790install-jekyll-on-opensuse-13-1&quot;&gt;&lt;a href=&quot;http://www.snip2code.com/Snippet/126790/Install-Jekyll-on-OpenSuse-13-1&quot;&gt;在OpenSuse下安装过程&lt;/a&gt;：&lt;/h4&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-powershell&quot; data-lang=&quot;powershell&quot;&gt;&lt;span class=&quot;n&quot;&gt;zypper&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;-t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;devel_basis&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;zypper&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ruby-devel&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;zypper&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nodejs&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;execjs&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p class=&quot;notice-info&quot;&gt;&lt;strong&gt;info Notice:&lt;/strong&gt; 在使用gem之前，要将ruby源换为淘宝的源，具体方法如下:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-powershell&quot; data-lang=&quot;powershell&quot;&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sources&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;-remove&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rubygems&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sources&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;taobao&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;step-3-&quot;&gt;Step 3 安裝模板&lt;/h2&gt;
+
+&lt;p&gt;在模板的说明文档中有详细说明&lt;a href=&quot;http://mmistakes.github.io/skinny-bones-jekyll/getting-started/&quot;&gt;说明文档&lt;/a&gt;.&lt;/p&gt;
+
 
     </content>
   </entry>
