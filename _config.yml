@@ -5,8 +5,7 @@ description: 图形学那些事
 logo: # 120x120 px default image used for Twitter summary card
 teaser: teaser.jpg # 400x250 px default teaser image used in image archive grid
 locale:
-url: http://127.0.0.1:4000
-    #http://galaxy-wolf.github.io
+url: http://galaxy-wolf.github.io
 
 # Jekyll configuration
 
