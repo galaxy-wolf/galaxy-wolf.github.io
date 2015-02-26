@@ -5,27 +5,27 @@
 
   <title>西红柿炒番茄</title>
   <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.4.0</generator>
-    <icon>http://127.0.0.1:4000/apple-touch-icon-precomposed.png</icon>
+    <icon>http://galaxy-wolf.github.io/apple-touch-icon-precomposed.png</icon>
   <subtitle>图形学那些事</subtitle>
-  <link href="http://127.0.0.1:4000/atom.xml" rel="self"/>
-  <link href="http://127.0.0.1:4000/" rel="alternate" type="text/html"/>
-  <updated>2015-02-26T21:06:45+08:00</updated>
-  <id>http://127.0.0.1:4000/</id>
+  <link href="http://galaxy-wolf.github.io/atom.xml" rel="self"/>
+  <link href="http://galaxy-wolf.github.io/" rel="alternate" type="text/html"/>
+  <updated>2015-02-26T21:52:58+08:00</updated>
+  <id>http://galaxy-wolf.github.io/</id>
   <author>
     <name></name>
-    <uri>http://127.0.0.1:4000/</uri>
+    <uri>http://galaxy-wolf.github.io/</uri>
     
   </author>
 
   
   <entry>
     <title>建站</title>
-    <link href="http://127.0.0.1:4000/setup/first-commit/"/>
+    <link href="http://galaxy-wolf.github.io/setup/first-commit/"/>
     <updated>2015-02-22T00:00:00+08:00</updated>
-    <id>http://127.0.0.1:4000/setup/first-commit</id>
+    <id>http://galaxy-wolf.github.io/setup/first-commit</id>
     <author>
       <name></name>
-      <uri>http://127.0.0.1:4000/</uri>
+      <uri>http://galaxy-wolf.github.io/</uri>
       
     </author>
     <content type="html">

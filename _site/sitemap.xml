@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://127.0.0.1:4000/setup/first-commit/</loc>
+    <loc>http://galaxy-wolf.github.io/setup/first-commit/</loc>
     <lastmod>2015-02-22T00:00:00+08:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://127.0.0.1:4000/</loc>
-    <lastmod>2015-02-26T21:06:45+08:00</lastmod>
+    <loc>http://galaxy-wolf.github.io/</loc>
+    <lastmod>2015-02-26T21:52:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://127.0.0.1:4000/life/</loc>
-    <lastmod>2015-02-26T21:06:45+08:00</lastmod>
+    <loc>http://galaxy-wolf.github.io/life/</loc>
+    <lastmod>2015-02-26T21:52:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://127.0.0.1:4000/setup/</loc>
-    <lastmod>2015-02-26T21:06:45+08:00</lastmod>
+    <loc>http://galaxy-wolf.github.io/setup/</loc>
+    <lastmod>2015-02-26T21:52:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://127.0.0.1:4000/tech/</loc>
-    <lastmod>2015-02-26T21:06:45+08:00</lastmod>
+    <loc>http://galaxy-wolf.github.io/tech/</loc>
+    <lastmod>2015-02-26T21:52:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
