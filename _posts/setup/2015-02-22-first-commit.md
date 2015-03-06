@@ -36,7 +36,7 @@ gem install execjs
 **info Notice:** 在使用gem之前，要将ruby源换为淘宝的源，具体方法如下:
 {: .notice-info}
 {% highlight powershell%}
-gem sources --remove http://rubygems.org/
+gem sources --remove https://rubygems.org/
 gem sources -a http://ruby.taobao.org/ 
 {% endhighlight %}
 
